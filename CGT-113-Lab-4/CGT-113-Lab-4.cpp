@@ -32,8 +32,7 @@ int main() {
             statement += " ";
         }
         else {
-            for (size_t j = 0; j < 25; j++)
-            {
+            for (size_t j = 0; j < 25; j++) {
                 if (text[i] == stringVector[0][j]) {
                     statement += strVector[0][j];
                 }
